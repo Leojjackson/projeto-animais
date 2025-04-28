@@ -1,0 +1,10 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ :root {
+    --letter-color:#FFF;
+    --color-background:#6e696909;
+    --blue-clor:#1260a8;
+ }
