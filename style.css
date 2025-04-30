@@ -5,6 +5,17 @@
 }
  :root {
     --letter-color:#FFF;
-    --color-background:#6e696909;
+    --color-background:#5f58588e;
     --blue-clor:#1260a8;
+ }
+
+ header {
+    min-height: 10vh ;
+    background-color: var(--color-background);
+    width:100vw;
+ }
+
+ ul > li {
+    display: inline-block;
+    text-align: center;
  }
