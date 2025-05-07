@@ -14,8 +14,3 @@
     background-color: var(--color-background);
     width:100vw;
  }
-
- ul > li {
-    display: inline-block;
-    text-align: center;
- }
