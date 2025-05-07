@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Tagesschrift", system-ui;
     font-style: normal;
+    font-weight: 100;
 }
  :root {
     --letter-color:#FFF;
@@ -13,7 +14,7 @@
 
  header {
     min-height: 10vh ;
-    background-color: var(--color-background);
+    /* background-color: var(--color-background); */
     width:100vw;
 }
 header ul{
@@ -24,28 +25,32 @@ header ul{
 ul > li {
     list-style: none;
     margin: 2.25rem 4.25rem;
-    font-weight: 700;
+
 }
 li >a {
     text-decoration: none;
     font-size: 1.22rem;
-    color:var(--letter-color);
+    color: rgb(177, 161, 90);
     letter-spacing: 0.25rem;
+}
+a:hover {
+    color: rgb(53, 54, 54);
 }
 #roda-pe {
     background-image:url(img/leao.jpg);
     background-position:cover;
-    min-height:90vh;
+    min-height:100vh;
     color:var(--letter-color);
 }
 #roda-pe h1{
     text-align: center;
-    padding-top:20rem;
-    letter-spacing: 1.22rem;
-    color: rgb(8, 173, 250);
+    padding:15rem 65rem 0 0;
+    letter-spacing: 0.8rem;
+    color: rgb(177, 161, 90);
 }
 #roda-pe p {
     text-align: center;
-    padding-top: 2rem;
-    letter-spacing: 1.22rem;
+    padding: 2rem 65rem 0 0;
+    letter-spacing: 0.5rem;
+    color: rgb(177, 161, 90);
 }
