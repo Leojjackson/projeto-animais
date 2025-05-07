@@ -2,10 +2,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: "Tagesschrift", system-ui;
+    font-style: normal;
 }
  :root {
     --letter-color:#FFF;
-    --color-background:#5f58588e;
+    --color-background:#2c2020fb;
     --blue-clor:#1260a8;
  }
 
@@ -13,4 +15,35 @@
     min-height: 10vh ;
     background-color: var(--color-background);
     width:100vw;
- }
+}
+header ul{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+ul > li {
+    list-style: none;
+    margin: 2.25rem 4.25rem;
+    font-weight: 700;
+}
+li >a {
+    text-decoration: none;
+    font-size: 1.22rem;
+    color:var(--letter-color);
+    letter-spacing: 0.25rem;
+}
+#roda-pe {
+    background-image:url(img/arara-amarela.jpg);
+    min-height:90vh;
+    color:var(--letter-color);
+}
+#roda-pe h1{
+    text-align: center;
+    padding-top:20rem;
+    letter-spacing: 1.22rem;
+}
+#roda-pe p {
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 1.22rem;
+}
