@@ -54,3 +54,20 @@ a:hover {
     letter-spacing: 0.5rem;
     color: rgb(177, 161, 90);
 }
+#hero ul img {
+    width: 25vw;
+    height: 50vh;
+    object-fit:cover;
+    background-size: cover;
+    border-radius: 2rem;
+    box-shadow: 2px 12px 22px 1px rgba(0, 0, 0, 0.7);
+}
+#hero ul {
+    display:flex;
+}
+h3 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    letter-spacing: 0.8;
+}
