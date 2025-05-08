@@ -6,6 +6,9 @@
     font-style: normal;
     font-weight: 100;
 }
+html {
+    scroll-behavior: smooth;
+}
  :root {
     --letter-color:#FFF;
     --color-background:#2c2020fb;
@@ -61,6 +64,7 @@ a:hover {
     background-size: cover;
     border-radius: 2rem;
     box-shadow: 2px 12px 22px 1px rgba(0, 0, 0, 0.7);
+    transform: rotate(3deg);
 }
 #hero ul {
     display:flex;
@@ -70,4 +74,11 @@ h3 {
     margin-top: 3rem;
     font-size: 3rem;
     letter-spacing: 0.8;
+}
+#hero ul h4 {
+    text-align: center;
+    font-size: 2.1rem;
+}
+#hero ul p {
+    text-align:left;
 }
