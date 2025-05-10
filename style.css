@@ -9,6 +9,9 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    background-color: #ccc;
+}
  :root {
     --letter-color:#FFF;
     --color-background:#2c2020fb;
@@ -68,10 +71,15 @@ a:hover {
     border-radius: 2rem;
     box-shadow: 2px 12px 22px 1px rgba(0, 0, 0, 0.7);
     transform: rotate(3deg);
+    animation: animar 3s infinite ease-in-out;
+}
+#hero ul img:hover {
+    transform: rotate(7deg);
+    transition: 2s;
 }
 h3 {
     text-align: center;
-    margin: 7rem 0 9rem 0;
+    margin: 3rem 0 2rem 0;
     font-size: 3rem;
     letter-spacing: 0.8;
 }
@@ -95,7 +103,13 @@ h3 {
     box-shadow: 2px 12px 22px 1px rgba(0, 0, 0, 0.7);
     transform: rotate(-3deg);
 }
+#hero2 ul img:hover {
+    transform: rotate(7deg);
+    transition: 2s;
+}
 #hero2 ul h4 {
     text-align: center;
     font-size: 2.1rem;
+}#sobre h3 + p{
+    text-align:center;
 }
