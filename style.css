@@ -1,10 +1,8 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    font-family: "Tagesschrift", system-ui;
-    font-style: normal;
-    font-weight: 100;
+    /* box-sizing: border-box;
+    font-family: "Tagesschrift", system-ui; */
 }
 html {
     scroll-behavior: smooth;
@@ -112,7 +110,6 @@ h3 {
     font-size: 2.1rem;
 }#sobre h3 + p{
     text-align:center;
-    letter-spacing: 0.8rem;
     padding: 2rem;
 }
 .box_logo{
@@ -123,4 +120,10 @@ h3 {
     width: 8rem;
     height: 8rem;
     padding: 2rem;
+}
+footer {
+    text-align: center;
+    font-size:1.25rem;
+    font-weight: 100;
+    margin: 1.25rem;
 }
