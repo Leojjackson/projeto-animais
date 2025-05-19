@@ -4,5 +4,8 @@
 
 # Segue o link para o site: https://1projeto-animais.netlify.app
 
+![image](https://github.com/user-attachments/assets/657be9dd-f0ef-4a01-8333-1b420b8e1157)
+
+
 # Author: Leonardo jackson
 # Date: 04/05/2025 to 11/05/2025
